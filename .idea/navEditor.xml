@@ -20,7 +20,7 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="list">
+                  <entry key="photo_gallery">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -31,7 +31,7 @@
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_list_to_detail">
+                            <entry key="action_gallery_to_detail">
                               <value>
                                 <LayoutPositions />
                               </value>
