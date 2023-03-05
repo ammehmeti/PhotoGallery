@@ -46,7 +46,7 @@ class PicSumAdapter(private val onItemClick: (picsum: PicSum) -> Unit) :
         fun bind(picsum: PicSum) {
             with(binding) {
                 picsumAuthor.text = picsum.author
-                ImageLoader.loadImage(root, picsum.download_url, picusmImage)
+                ImageLoader.loadImage(root, picsum.download_url, thumbnail)
                 picsumCard.setOnClickListener { onItemClick(picsum) }
             }
         }
